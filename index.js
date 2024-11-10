@@ -37,5 +37,4 @@ API_Server.get('/', function (req, res) {
 // Start and Listen incoming requests
 API_Server.listen(process.env.PORT, process.env.HOSTNAME, function () {
     console.log("Server started");
-    console.log(`http://${process.env.HOSTNAME}:${process.env.PORT}`)
 });
